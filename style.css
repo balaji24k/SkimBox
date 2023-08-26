@@ -1,0 +1,53 @@
+.outerBox {
+    display: block;
+    margin: 100px auto;
+    width: 500px;
+    height: 600px;
+    /* background: rgb(243, 236, 236); */
+}
+
+.innerBox {
+    border: 2px solid black;
+    margin: 20px 0;
+    border-radius: 5px;
+    padding: 10px;
+    /* background: rgb(255, 244, 244); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.highlight {
+    background-color: rgb(254, 233, 233);
+    border: 2px solid rgb(248, 5, 5);
+}
+
+.footerBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 100%;
+    background: red;
+    color: white;
+    padding: 15px;
+    font-size: large;
+}
+
+#box1:hover {
+    border: 2px solid blue;
+}
+
+#box2:hover {
+    border: 2px solid blue;
+}
+
+#box3:hover {
+    border: 2px solid blue;
+}
+
+.row1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
